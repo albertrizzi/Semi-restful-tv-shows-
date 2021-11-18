@@ -20,4 +20,3 @@ urlpatterns = [
     path('', views.index),
     path('shows/', include('shows.urls')),
 ]
-
